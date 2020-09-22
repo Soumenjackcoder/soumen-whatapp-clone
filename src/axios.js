@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://whatapp-api.herokuapp.com',
+  baseURL: '<ENTER YOUR baseURL>',
 });
 
 export default instance;
